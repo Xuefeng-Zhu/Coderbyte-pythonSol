@@ -5,6 +5,6 @@ def Palindrome(str):
     
 # keep this function call here  
 # to see how to enter arguments in Python scroll down
-print Palindrome("dont nod")  
+print Palindrome(raw_input())  
 
 
