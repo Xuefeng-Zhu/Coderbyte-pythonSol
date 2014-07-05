@@ -5,7 +5,7 @@ def DashInsert(num):
       result += i 
       continue
     if int(i)%2 == 1 and int(result[-1])%2==1:
-      result += i
+      result += "-" + i
     else:
       result += i
   return result 
