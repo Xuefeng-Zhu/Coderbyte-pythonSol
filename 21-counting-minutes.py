@@ -6,7 +6,7 @@ def turn24H(time):
 
 def CountingMinutesI(str): 
   time1,time2 = [turn24H(time) for time in str.split("-")]
-  if (time1[0] =< time2[0]):
+  if (time1[0] <= time2[0]):
   	return 60* (time2[0] - time1[0]) + time2[1] - time1[1]
   else:
   	return 60 * (24 - time1[0] + time2[0]) - time1[1] + time2[1] 
