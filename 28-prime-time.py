@@ -1,5 +1,7 @@
 import math
 def PrimeTime(num): 
+  if num == 2:
+  	return "true"
   if num % 2 == 0:
     return "false"
   for i in range(3, int(math.sqrt(num)), 2):
