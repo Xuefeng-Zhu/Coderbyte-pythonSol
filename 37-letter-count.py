@@ -2,7 +2,7 @@ def LetterCount(str):
   maxC = 0
   maxWord = ""
   for word in str.split():
-  	count = 0
+    count = 0
     for i in range(len(word)):
       if word[i] in word[i+1:]:
         count += 1 
