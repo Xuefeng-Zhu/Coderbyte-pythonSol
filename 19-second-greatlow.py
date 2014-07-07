@@ -4,7 +4,7 @@
 
 def SecondGreatLow(arr): 
   newArr = sorted(set(arr))
-  return "%d %d", %(newArr[1], newArr[-2])
+  return "%d %d" %(newArr[1], newArr[-2])
     
     
 # keep this function call here  

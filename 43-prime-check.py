@@ -2,8 +2,8 @@
 
 # Use the Parameter Testing feature in the box below to test your code with different arguments.
 def is_Prime(n):
-    if n % 2 == 0:
-    	return False
+	if n % 2 == 0:
+		return False
 	for i in xrange(3, int(n ** 0.5)+1, 2):
 		if n % i == 0:
 			return False
@@ -19,4 +19,4 @@ def PrimeChecker(num):
     
 # keep this function call here  
 # to see how to enter arguments in Python scroll down
-print PrimeChecker(raw_input())           
+print PrimeChecker(raw_input())  
