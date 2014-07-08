@@ -6,11 +6,11 @@ def CoinDeterminer(num):
     tCount = 0
     tNum = num
     for j in range(i, len(coins)):
-      tCount += tNum / coins[i]
-      tNum = tNum % coins[i]
-    if tCount < count:
+      tCount += tNum / coins[j]
+      tNum = tNum % coins[j]
+    if 0 < tCount < count:
       count = tCount 
-  return count   
+  return count    
     
 # keep this function call here  
 # to see how to enter arguments in Python scroll down
